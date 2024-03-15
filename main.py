@@ -12,9 +12,6 @@ Ilyuka.create_wallet(Currencies.USD)
 Ilyuka.create_wallet(Currencies.RUB)
 Ilyuka.create_wallet(Currencies.RUB)
 
-Danilko.create_wallet(Currencies.USD)
-Danilko.create_wallet(Currencies.RUB)
-
 Kekril.create_wallet(Currencies.USD)
 Kekril.create_wallet(Currencies.USD)
 
