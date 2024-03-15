@@ -1,14 +1,14 @@
 import datetime
 from wallet import *
 
-DATE = str(datetime.datetime.now().date())
+CURRENT_DATE = str(datetime.datetime.now().date())
 
 
 class User:
     def __init__(self, full_name, login):
         self.full_name = full_name
         self.login = login
-        self.creation_date = DATE
+        self.creation_date = CURRENT_DATE
         self.wallets = []
 
     def create_wallet(self, currency: Currencies):

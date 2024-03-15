@@ -4,7 +4,7 @@ from transactions import *
 
 transaction_history = []
 
-Ilyuka = User("Ilyuka", "dragonwar26rus")
+Ilyuka = User("Ilyuka", "dragonwar26russ")
 Danilko = User("Danilko", "danniuz")
 Kekril = User("Kekril", "shortyk")
 

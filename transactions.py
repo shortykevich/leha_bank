@@ -11,7 +11,7 @@ def transfer(sender, recipient, sender_wallet, recipient_wallet, amount):
 
     commission = 0 if sender.login == recipient.login else amount * COMMISSION
 
-    if sender_wallet.currency != recipient_wallet.currency:  # Конверт
+    if sender_wallet.currency != recipient_wallet.currency:  # Конвертация
         recipient_balance += convert(amount, sender_wallet.currency, recipient_wallet.currency)
     else:  # Траснфер
         recipient_balance += amount
